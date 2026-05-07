@@ -103,8 +103,28 @@ Applied professional dashboard design principles including:
 
 ---
 
-## 🚀 How to View
+## 🚀 How to Run
 
-1. Download the `.pbix` file from this repository
-2. Open using Power BI Desktop
-3. Use `Ctrl + Click` on navigation buttons to explore interactive features
+1. Clone this repository
+
+```bash
+git clone https://github.com/EeshaChowdhary/regional_sales_analysis.git
+```
+
+2. Open the project folder
+
+3. Run the Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+4. Open:
+
+- `regional_sales_analysis.ipynb`
+
+OR run the Python script:
+
+```bash
+python regional_sales_analysis.py
+```
