@@ -1,40 +1,61 @@
 # Regional Sales Analysis Dashboard (Power BI)
 
 ## 📊 Project Overview
+
 This is a comprehensive multi-page Power BI dashboard designed to provide actionable insights for an Executive Sales team.
 
-The project focuses on:
+The dashboard focuses on:
 - Total Revenue Analysis
 - Profit Margin Tracking
 - Order Trends
-- Regional & Product Insights
+- Regional Performance
+- Product Category Insights
 
 ---
 
 ## 🛠️ Key Features
 
-- App-like navigation system
-- Custom pop-out filter panel
-- Synced slicers across pages
-- Dynamic Top 5 / Bottom 5 analysis
-- Clear All Filters functionality
-- Interactive dashboard experience
+### ✅ App-like Navigation
+Includes a custom landing page and top-bar navigation system to switch between:
+- Executive Overview
+- Product Performance
+- Geographic Insights
+
+### ✅ Custom Pop-out Filter Panel
+Built using advanced Bookmark and Selection Pane logic for a clean and interactive user experience.
+
+### ✅ Synced Slicers
+Filters are synchronized across all pages for seamless navigation and consistent reporting.
+
+### ✅ Dynamic Top/Bottom Analysis
+Interactive buttons allow switching between:
+- Top 5 Performers
+- Bottom 5 Performers
+
+for:
+- Customers
+- Products
+- States
+
+### ✅ Reset Functionality
+A dedicated “Clear All Filters” button restores the dashboard to its default state instantly.
 
 ---
 
 ## 🧠 Technical Challenges Solved
 
 ### Bookmark Conflict Resolution
-Managed complex layering in the Selection Pane to ensure the filter panel remains independent of other page actions.
+Managed complex layering in the Selection Pane to ensure the filter panel operates independently from other page interactions.
 
 ### Cross-Page Filtering
-Implemented Sync Slicers to maintain filtering consistency across all report pages.
+Implemented Sync Slicers to maintain consistent filtering context across multiple report pages.
 
 ### UI/UX Design
-Applied professional dashboard design principles:
+Applied professional dashboard design principles including:
 - Rounded corners
 - Drop shadows
 - Consistent color palette
+- Clean spacing and alignment
 
 ---
 
@@ -42,35 +63,48 @@ Applied professional dashboard design principles:
 
 - California contributes 19.5% of total revenue
 - West region has the highest profit margin at 37.5%
-- Seasonal sales trends identified for inventory planning
+- Monthly revenue trends reveal important seasonal sales patterns
 
 ---
 
 ## 🚀 Tools Used
 
 - Power BI
+- Power Query
 - DAX
 - Data Modeling
-- Power Query
 
 ---
 
 ## 📷 Dashboard Screenshots
 
+### Dashboard 1
 ![Dashboard 1](images/dashboard1.png)
 
+---
+
+### Dashboard 2
 ![Dashboard 2](images/dashboard2.png)
 
+---
+
+### Dashboard 3
 ![Dashboard 3](images/dashboard3.png)
 
+---
+
+### Dashboard 4
 ![Dashboard 4](images/dashboard4.png)
 
+---
+
+### Dashboard 5
 ![Dashboard 5](images/dashboard5.png)
 
 ---
 
 ## 🚀 How to View
 
-1. Download the `.pbix` file
+1. Download the `.pbix` file from this repository
 2. Open using Power BI Desktop
-3. Use `Ctrl + Click` on navigation buttons to interact with the dashboard
+3. Use `Ctrl + Click` on navigation buttons to explore interactive features
